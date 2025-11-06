@@ -1,0 +1,14 @@
+[project]
+name = "LLM Business Pain Point Finder"
+version = "0.1.0"
+description = "A small example of LLM prompt chaining. It should: 1: Pick a business worth of exploring 2: Find pain point 3: Propose an AI solution"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.7.1",
+    "python-dotenv>=1.2.1"
+]
+
+[dependency-groups]
+dev = [
+]
